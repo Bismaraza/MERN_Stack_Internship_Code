@@ -18,3 +18,26 @@ else {
 }
 
 // Task 2: Login Validation
+
+let email = "bisma123@gmail.com";
+let password = "12345";
+
+
+let useremail = prompt("Enter your email:");
+let userpassword = Number(prompt("Enter your password:"));
+
+console.log(useremail);
+console.log(userpassword);
+
+if (email === useremail && password === userpassword) {
+    console.log(" Login Successful");
+}
+else if (email !== useremail && password === userpassword) {
+    console.log(" Email is incorrect. Please try again.");
+}
+else if (email === useremail && password !== userpassword) {
+    console.log(" Password is incorrect. Please try again.");
+}
+else {
+    console.log(" Both email and password are incorrect.");
+}
