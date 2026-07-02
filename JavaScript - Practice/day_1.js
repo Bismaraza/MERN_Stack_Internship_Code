@@ -11,5 +11,3 @@ console.log("Age is :" + age);
 let calcius = 30;
 let fahrenheit = (calcius * 9/5) + 32;
 console.log(calcius + "°C is " + fahrenheit + "°F");
-
-g
