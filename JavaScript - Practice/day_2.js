@@ -24,7 +24,7 @@ let password = "12345";
 
 
 let useremail = prompt("Enter your email:");
-let userpassword = Number(prompt("Enter your password:"));
+let userpassword = Number(prompt("Enter your password:"))bn;
 
 console.log(useremail);
 console.log(userpassword);
@@ -41,3 +41,6 @@ else if (email === useremail && password !== userpassword) {
 else {
     console.log(" Both email and password are incorrect.");
 }
+
+// Task 3 : Multiplication table generator
+
