@@ -45,4 +45,31 @@ student.gender= "Female";
 delete student.gender;
 
 
-// Functions
+// Functions Declaration
+function greet() {
+    console.log("Hello, Bisma!");
+}
+
+/// Function Calling
+greet();
+
+// Parameters
+
+function greet(name) {
+    console.log("Hello " + name);
+}
+
+greet("Bisma");
+greet("Ali");
+greet("Ahmed");
+
+// Multiple Parameters
+
+function add(a, b) {
+    console.log(a + b);
+}
+add(10, 20);
+
+// Parameters written in function defination
+// Arguments passed when calling the function
+
