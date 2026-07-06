@@ -43,4 +43,11 @@ else {
 }
 
 // Task 3 : Multiplication table generator
+let number = Number(prompt("Enter Your Number:"));
 
+for(let i = 1; i<=10; i++){
+    console.log(number + "x" + i + "=" + (number*i));
+}
+
+
+// Task 4: 
