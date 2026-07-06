@@ -50,4 +50,27 @@ for(let i = 1; i<=10; i++){
 }
 
 
-// Task 4: 
+// Task 4: Pattern Problem
+for (let i = 1; i <= 5; i++) {
+
+    let row = "";
+
+    for (let j = 1; j <= i; j++) {
+        row += j;
+    }
+
+    console.log(row);
+}
+
+// 2nd Pattern
+
+for (let i = 5; i >= 1; i--) {
+
+    let row = "";
+
+    for (let j = 1; j <= i; j++) {
+        row += j;
+    }
+
+    console.log(row);
+}
