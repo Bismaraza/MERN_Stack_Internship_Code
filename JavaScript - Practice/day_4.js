@@ -31,4 +31,34 @@ function poem(){
     console.log("How i wonder what you are");
 }
 
-poem();
+// poem();
+
+function printname(name,age){
+    console.log(`${name}'s age is ${age}.`);
+}
+
+// printname("Bisma",20);
+// printname("Rukhsar",50);
+// printname("Bisma");
+
+
+// Print table
+ function table(n){
+    for( let i=n; i<=n*10; i+=n){
+        console.log(i);
+    }
+ }
+
+//  table(7);
+
+function getsum(n){
+
+    let sum=0;
+    for(let i=0; i<=n; i++){
+        sum = sum+i;
+    }
+
+    return sum;
+}
+
+getsum(7);
