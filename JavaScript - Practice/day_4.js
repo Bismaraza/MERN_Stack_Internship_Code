@@ -65,8 +65,9 @@ function getsum(n){
 
 // console.log(getsum(7));
 
-// String Concat
 
+
+// String Concat
 let str = ["hi", "hello","bye","!"];
 
 function concat(str){
@@ -78,4 +79,5 @@ function concat(str){
 
     return result;
 }
-
+ 
+// console.log(concat(str));
