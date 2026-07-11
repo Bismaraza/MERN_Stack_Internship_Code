@@ -51,6 +51,8 @@ function printname(name,age){
 
 //  table(7);
 
+
+// Sum of numbers
 function getsum(n){
 
     let sum=0;
@@ -61,4 +63,19 @@ function getsum(n){
     return sum;
 }
 
-getsum(7);
+// console.log(getsum(7));
+
+// String Concat
+
+let str = ["hi", "hello","bye","!"];
+
+function concat(str){
+    let result = "";
+
+    for(let i=0; i<str.length; i++){
+        result= result + str[i];
+    }
+
+    return result;
+}
+
