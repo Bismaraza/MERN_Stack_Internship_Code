@@ -81,3 +81,13 @@ function concat(str){
 }
  
 // console.log(concat(str));
+
+
+// Function expression
+
+let add = function(a, b){
+    return a+b;
+}
+
+add(1,2);
+
