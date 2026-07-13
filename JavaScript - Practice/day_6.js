@@ -1,66 +1,66 @@
-// // For Each Function
+// For Each Function
 
-// let arr = [1, 2, 3, 4, 5];
+let arr = [1, 2, 3, 4, 5];
 
-// let print = function (el) {
-//   console.log(el);
-// };
+let print = function (el) {
+  console.log(el);
+};
 
-// arr.forEach(print);
+arr.forEach(print);
 
-// // 2nd method
+// 2nd method
 
-// arr.forEach((el) => {
-//   console.log(el);
-// });
+arr.forEach((el) => {
+  console.log(el);
+});
 
-// // Map Function : Let new Arr = arr.Map( some function or name)
-// // New Array will be created.
-// let num = [1, 2, 3, 4, 5];
+// Map Function : Let new Arr = arr.Map( some function or name)
+// New Array will be created.
+let num = [1, 2, 3, 4, 5];
 
-// let double = num.map((el) => {
-//   return el * 2;
-// });
+let double = num.map((el) => {
+  return el * 2;
+});
 
-// let students = [
-//   {
-//     name: "Bisma",
-//     marks: 95,
-//   },
-//   {
-//     name: "Raza",
-//     marks: 94,
-//   },
-//   {
-//     name: "Azar",
-//     marks: 92,
-//   },
-// ];
+let students = [
+  {
+    name: "Bisma",
+    marks: 95,
+  },
+  {
+    name: "Raza",
+    marks: 94,
+  },
+  {
+    name: "Azar",
+    marks: 92,
+  },
+];
 
-// let gpa = students.map((el) => {
-//   return el.marks / 10;
-// });
+let gpa = students.map((el) => {
+  return el.marks / 10;
+});
 
-// // Filter
+// Filter
 
-// let nums = [1,2,3,4,5,6,7,8,9];
+let nums = [1,2,3,4,5,6,7,8,9];
 
-// let ans =  nums.filter ((el) => {
-//     return el%2== 0;
-// }); let num = [1,2,3,4,5];
+let ans =  nums.filter ((el) => {
+    return el%2== 0;
+}); let num = [1,2,3,4,5];
 
-//  let double = num.map((el) => {
-//     return el*2;
-//  });
+ let double = num.map((el) => {
+    return el*2;
+ });
 
-// // Question.. check if all numbers in our array are multiple of 10 or not
+// Question.. check if all numbers in our array are multiple of 10 or not
 
-// let numms = [10, 20, 30, 40];
+let numms = [10, 20, 30, 40];
 
-// let answer = numms.every((el) => el % 10 == 0);
-// console.log(answer);
+let answer = numms.every((el) => el % 10 == 0);
+console.log(answer);
 
-// // Question 2
+// Question 2
 
 function getMinn(numms) {
   let min = numms.reduce((min, el) => {
@@ -118,3 +118,6 @@ let students = [
 let result = students.filter(student => {
     return student.marks >= 80;
 });
+
+
+// Question # 03
