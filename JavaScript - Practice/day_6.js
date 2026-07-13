@@ -76,20 +76,45 @@ function getMinn(numms) {
 
 let numms = [10, 20, 30, 40];
 
-
 // Spreads with Array literals
-let arr = [1,2,3,4,5];
+let arr = [1, 2, 3, 4, 5];
 
 let newArr = [...arr];
 
-let odd = [1,3,5,7,9];
-let even = [2,4,6,8];
+let odd = [1, 3, 5, 7, 9];
+let even = [2, 4, 6, 8];
 
-let final = [...odd , ...even];
-
-
+let final = [...odd, ...even];
 
 // Destructuring
 
-let names = ["tony" , " Stark", "Bisma","Raza" ];
+let names = ["tony", " Stark", "Bisma", "Raza"];
 let [winner, runnerup, ...others] = names;
+
+// Day 06 Practice Questionss
+let students = [
+  { name: "Ali", age: 20 },
+  { name: "Ahmed", age: 21 },
+  { name: "Sara", age: 22 },
+  { name: "Bisma", age: 23 },
+];
+
+let student = students.find(function (student) {
+  return students.name == "Sara";
+});
+
+console.log(student);
+
+// 2nd question Filter 
+
+let students = [
+    { name: "Ali", marks: 45 },
+    { name: "Ahmed", marks: 90 },
+    { name: "Sara", marks: 78 },
+    { name: "Bisma", marks: 95 },
+    { name: "Usman", marks: 50 }
+];
+
+let result = students.filter(student => {
+    return student.marks >= 80;
+});
