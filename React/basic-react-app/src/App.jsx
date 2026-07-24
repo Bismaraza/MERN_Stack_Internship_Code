@@ -29,10 +29,29 @@
 // export default App;
 
 
-import Portfolio from "./components/Portfolio";
+// // Portfolio
+// import Portfolio from "./components/Portfolio";
+
+// function App() {
+//   return <Portfolio />;
+// }
+
+// export default App;
+
+// Day 2 tasks
+
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 function App() {
-  return <Portfolio />;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
